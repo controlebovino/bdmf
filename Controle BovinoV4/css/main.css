@@ -1,0 +1,33 @@
+* {
+    font-family: Poppins;
+    font-size: 15px;
+}
+
+.titulo {
+    position: absolute; 
+    width: auto; 
+    height: auto; 
+    background-color: rgb(255, 255, 255); 
+    text-align: center;     
+    border-radius: 20px; 
+    padding: 5px 3%; 
+}
+
+.nav-link:hover {
+    box-shadow: 0 2vh 0 -1.5vh rgb(255, 255, 255);
+    transition: box-shadow ease-out 0.2s;
+}
+
+.nav-item {
+    font-size: 15px;
+    height: 35px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+  }
+
+nav {
+    box-shadow: 0 0 10px gray;
+}
